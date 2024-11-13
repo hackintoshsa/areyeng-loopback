@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "composite": false,
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "extends": "@loopback/build/config/tsconfig.common.json",
+  "include": [
+    "src/**/*",
+    "src/**/*.json"
+  ]
+}
